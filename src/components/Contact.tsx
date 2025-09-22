@@ -47,7 +47,7 @@ export function Contact() {
       id: 'experiment',
       icon: TestTube,
       title: '実験に誘う',
-      description: '新しいアイデアの実験パート���ーを募集中',
+      description: '新しいアイデアの実験パートナーを募集中',
       color: 'from-blue-500 to-cyan-500',
       placeholder: '一緒に実験したいアイデアを教えてください...'
     },
@@ -104,9 +104,9 @@ export function Contact() {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub', color: 'hover:text-gray-900' },
+    { icon: Github, href: 'https://github.com/mizugoro', label: 'GitHub', color: 'hover:text-gray-900' },
     { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn', color: 'hover:text-blue-600' },
-    { icon: MessageCircle, href: 'https://twitter.com', label: 'Twitter', color: 'hover:text-blue-400' },
+    { icon: MessageCircle, href: 'https://twitter.com/mizugoro_agile', label: 'Twitter', color: 'hover:text-blue-400' },
   ];
 
   return (

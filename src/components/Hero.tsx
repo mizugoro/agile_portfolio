@@ -1,6 +1,6 @@
 import { Button } from './ui/button';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import { ArrowDown, Github, Linkedin, Mail, Code, Bug, TestTube } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail, Code, Bug, TestTube, MessageCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export function Hero() {
@@ -14,7 +14,7 @@ export function Hero() {
           transition={{ duration: 0.8 }}
         >
           <motion.div 
-            className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-6"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-2 mt-12"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
@@ -30,7 +30,7 @@ export function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
             >
-              コードで遊び、
+              コードで遊び
             </motion.span>
             <br />
             <motion.span 
@@ -85,7 +85,7 @@ export function Hero() {
             transition={{ delay: 1.4 }}
           >
             <Button variant="ghost" size="icon" asChild className="hover:scale-110 transition-transform">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/mizugoro" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
               </a>
             </Button>
@@ -97,6 +97,11 @@ export function Hero() {
             <Button variant="ghost" size="icon" asChild className="hover:scale-110 transition-transform">
               <a href="mailto:john@example.com">
                 <Mail className="h-5 w-5" />
+              </a>
+            </Button>
+            <Button variant="ghost" size="icon" asChild className="hover:scale-110 transition-transform">
+              <a href="https://twitter.com/mizugoro_agile" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="h-5 w-5" />
               </a>
             </Button>
           </motion.div>

@@ -22,15 +22,15 @@ export function Timeline() {
     {
       id: 0,
       title: '大学院（研究）',
-      period: '2018-2020',
-      location: '大学院情報科学研究科',
+      period: '2023-2024',
+      location: '立命館大学大学院情報理工学研究科',
       icon: GraduationCap,
       color: 'from-blue-500 to-cyan-500',
-      description: '機械学習とコンピュータビジョンの研究に没頭。アルゴリズムの美しさに魅了される。',
+      description: 'ウェアラブルデバイスのデータ収集と分析を行った',
       achievements: [
         '国際会議での論文発表 2本',
-        'ディープラーニングによる画像認識システム開発',
-        '研究室のサーバー管理者として活躍'
+        '脈拍センサを用いたデータ収集とゲームアプリ開発',
+        'データ分析と可視化'
       ],
       image: 'https://images.unsplash.com/photo-1602052577122-f73b9710adba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwcmVzZWFyY2glMjBsYWJ8ZW58MXx8fHwxNzU3NTU3MjQ5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       experiment: '深夜のコード実験で、AIが猫を認識する瞬間に感動した日々'
@@ -38,14 +38,14 @@ export function Timeline() {
     {
       id: 1,
       title: '開発（Web・モバイル）',
-      period: '2020-2022',
-      location: 'スタートアップ → 大手企業',
+      period: '2022-2024',
+      location: 'スタートアップ',
       icon: Code,
       color: 'from-green-500 to-emerald-500',
       description: 'ユーザーが触れるインターフェースを作る楽しさを発見。React との出会いが転機に。',
       achievements: [
-        'React/React Native で 5つのアプリをリリース',
-        'ユーザー数10万人のWebアプリを開発',
+        'React/React Native でアプリをリリース',
+        'Webアプリを開発',
         'チームリードとして若手エンジニアを指導'
       ],
       image: 'https://images.unsplash.com/photo-1612556810513-617a5a892418?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBwcm90b3R5cGV8ZW58MXx8fHwxNzU3NTkzNzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
@@ -54,11 +54,11 @@ export function Timeline() {
     {
       id: 2,
       title: 'QA（品質保証）',
-      period: '2022-2024',
+      period: '2025-',
       location: 'QAエンジニア・テスト設計',
       icon: TestTube,
       color: 'from-purple-500 to-pink-500',
-      description: '壊すことで守る。テストの奥深さと、品質の重要性を身をもって学ぶ。',
+      description: 'テストの奥深さと、品質の重要性を身をもって学ぶ。',
       achievements: [
         'テスト自動化フレームワークの構築',
         'バグ検出率を40%向上させる仕組みを開発',
@@ -67,22 +67,22 @@ export function Timeline() {
       image: 'https://images.unsplash.com/photo-1606619353143-8e11b4bdf76b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxxdWFsaXR5JTIwYXNzdXJhbmNlJTIwdGVzdGluZ3xlbnwxfHx8fDE3NTc1MTEzMzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       experiment: 'エッジケースを見つけるのは宝探しのよう。隠れたバグとの知恵比べ'
     },
-    {
-      id: 3,
-      title: '今とこれから',
-      period: '2024-',
-      location: 'フルスタック実験室',
-      icon: Rocket,
-      color: 'from-orange-500 to-red-500',
-      description: '開発・QA・研究の経験を融合。次世代のプロダクトを実験中。',
-      achievements: [
-        'AI活用ツールの開発・検証',
-        '新技術の実証実験プロジェクト',
-        'オープンソースコミュニティへの貢献'
-      ],
-      image: 'https://images.unsplash.com/photo-1667503779301-3120a323859a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxleHBlcmltZW50JTIwbGFib3JhdG9yeSUyMHNldHVwfGVufDF8fHx8MTc1NzYwMjAzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      experiment: '失敗も成功も、すべては次の実験のためのデータ'
-    }
+    // {
+    //   id: 3,
+    //   title: '今とこれから',
+    //   period: '2024-',
+    //   location: 'フルスタック実験室',
+    //   icon: Rocket,
+    //   color: 'from-orange-500 to-red-500',
+    //   description: '開発・QA・研究の経験を融合。次世代のプロダクトを実験中。',
+    //   achievements: [
+    //     'AI活用ツールの開発・検証',
+    //     '新技術の実証実験プロジェクト',
+    //     'オープンソースコミュニティへの貢献'
+    //   ],
+    //   image: 'https://images.unsplash.com/photo-1667503779301-3120a323859a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxleHBlcmltZW50JTIwbGFib3JhdG9yeSUyMHNldHVwfGVufDF8fHx8MTc1NzYwMjAzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    //   experiment: '失敗も成功も、すべては次の実験のためのデータ'
+    // }
   ];
 
   return (
