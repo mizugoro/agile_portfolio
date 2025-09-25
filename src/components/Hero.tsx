@@ -1,6 +1,6 @@
 import { Button } from './ui/button';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import { ArrowDown, Github, Linkedin, Mail, Code, Bug, TestTube, MessageCircle } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail, Code, Bug, TestTube, Twitter } from 'lucide-react';
 import { motion } from 'motion/react';
 import profile_image from "../assets/profile.jpeg"
 
@@ -102,7 +102,7 @@ export function Hero() {
             </Button>
             <Button variant="ghost" size="icon" asChild className="hover:scale-110 transition-transform">
               <a href="https://twitter.com/mizugoro_agile" target="_blank" rel="noopener noreferrer">
-                <MessageCircle className="h-5 w-5" />
+                <Twitter className="h-5 w-5" />
               </a>
             </Button>
           </motion.div>
