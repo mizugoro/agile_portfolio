@@ -2,6 +2,7 @@ import { Button } from './ui/button';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ArrowDown, Github, Linkedin, Mail, Code, Bug, TestTube, MessageCircle } from 'lucide-react';
 import { motion } from 'motion/react';
+import profile_image from "../assets/profile.jpeg"
 
 export function Hero() {
   return (
@@ -120,8 +121,8 @@ export function Hero() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1712064136254-a86090d1110f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwbGF5ZnVsJTIwZW5naW5lZXIlMjBjb2Rpbmd8ZW58MXx8fHwxNzU3NjAyMDMxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Playful Engineer"
+                src={profile_image}
+                alt="profile"
                 className="w-full h-full object-cover"
               />
             </motion.div>
