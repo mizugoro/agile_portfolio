@@ -15,6 +15,10 @@ import {
   Lightbulb
 } from 'lucide-react';
 
+import research_image from "../assets/研究.png";
+import development_image from "../assets/開発.png";
+import qa_image from "../assets/QA.png";
+
 export function Timeline() {
   const [activePhase, setActivePhase] = useState(0);
 
@@ -28,11 +32,11 @@ export function Timeline() {
       color: 'from-blue-500 to-cyan-500',
       description: 'ウェアラブルデバイスのデータ収集と分析を行った',
       achievements: [
-        '国際会議での論文発表 2本',
+        '国際会議での論文発表 1本',
         '脈拍センサを用いたデータ収集とゲームアプリ開発',
         'データ分析と可視化'
       ],
-      image: 'https://images.unsplash.com/photo-1602052577122-f73b9710adba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwcmVzZWFyY2glMjBsYWJ8ZW58MXx8fHwxNzU3NTU3MjQ5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: research_image,
       experiment: '深夜のコード実験で、AIが猫を認識する瞬間に感動した日々'
     },
     {
@@ -48,7 +52,7 @@ export function Timeline() {
         'Webアプリを開発',
         'チームリードとして若手エンジニアを指導'
       ],
-      image: 'https://images.unsplash.com/photo-1612556810513-617a5a892418?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBwcm90b3R5cGV8ZW58MXx8fHwxNzU3NTkzNzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: development_image,
       experiment: 'ユーザーの「おお！」という声が聞こえる瞬間を追い求めて'
     },
     {
@@ -64,7 +68,7 @@ export function Timeline() {
         'バグ検出率を40%向上させる仕組みを開発',
         'QAプロセスの標準化を推進'
       ],
-      image: 'https://images.unsplash.com/photo-1606619353143-8e11b4bdf76b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxxdWFsaXR5JTIwYXNzdXJhbmNlJTIwdGVzdGluZ3xlbnwxfHx8fDE3NTc1MTEzMzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: qa_image,
       experiment: 'エッジケースを見つけるのは宝探しのよう。隠れたバグとの知恵比べ'
     },
     // {

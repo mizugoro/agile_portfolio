@@ -59,3 +59,9 @@ export default defineConfig({
   https://zenn.dev/otaki0413/articles/react-deploy-github-pages
   - React + Vite アプリを GitHub Pages にデプロイする方法
   https://qiita.com/shugo1125/items/76979e6a7974bbd32ce3
+
+  ## 今後の追加機能案
+  - **ブログ機能**: 技術的な知見や学習の過程を発信するためのブログ機能。
+  - **多言語対応**: 日本語と英語など、複数の言語でコンテンツを表示する機能。
+  - **ダークモード/ライトモード**: ユーザーがサイトのテーマを切り替えられる機能。
+  - **詳細なプロジェクトページ**: 各プロジェクトについて、より詳細な情報（使用技術、スクリーンショット、デモリンクなど）を掲載する個別のページ。
