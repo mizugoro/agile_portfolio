@@ -71,22 +71,6 @@ export function Timeline() {
       image: qa_image,
       experiment: 'エッジケースを見つけるのは宝探しのよう。隠れたバグとの知恵比べ'
     },
-    // {
-    //   id: 3,
-    //   title: '今とこれから',
-    //   period: '2024-',
-    //   location: 'フルスタック実験室',
-    //   icon: Rocket,
-    //   color: 'from-orange-500 to-red-500',
-    //   description: '開発・QA・研究の経験を融合。次世代のプロダクトを実験中。',
-    //   achievements: [
-    //     'AI活用ツールの開発・検証',
-    //     '新技術の実証実験プロジェクト',
-    //     'オープンソースコミュニティへの貢献'
-    //   ],
-    //   image: 'https://images.unsplash.com/photo-1667503779301-3120a323859a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxleHBlcmltZW50JTIwbGFib3JhdG9yeSUyMHNldHVwfGVufDF8fHx8MTc1NzYwMjAzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    //   experiment: '失敗も成功も、すべては次の実験のためのデータ'
-    // }
   ];
 
   return (

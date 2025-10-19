@@ -33,14 +33,14 @@ export function Projects() {
     // 開発プロジェクト
     {
       type: 'development',
-      title: 'Smart Shopping Assistant',
-      shortDesc: 'AI搭載のECサイト',
-      fullDesc: 'ユーザーの購買履歴と行動分析を元に、パーソナライズされた商品推薦を行うECプラットフォーム。リアルタイム在庫管理と決済システムを統合。',
+      title: 'learning tracker',
+      shortDesc: '学習履歴を管理するアプリ',
+      fullDesc: 'githubの草を利用して学習履歴を可視化するアプリ',
       image: 'https://images.unsplash.com/photo-1728598909887-2d983a8889b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBkZXZlbG9wbWVudCUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NTc1MjA4OTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'ML API'],
       icon: Globe,
-      githubUrl: 'https://github.com',
-      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/mizugoro/learning_tracker',
+      liveUrl: 'https://mizugoro.github.io/learning_tracker/',
       experiment: 'ユーザーが「これ欲しかった！」と言ってくれる瞬間を作りたくて',
       stats: { users: '10万+', conversion: '+35%' }
     },
